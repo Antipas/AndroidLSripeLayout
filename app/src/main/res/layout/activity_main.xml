@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="horizontal"
+    >
+
+
+    <com.example.client.first.VIew.Stripe
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:text="example"
+            android:layout_weight="1"
+            android:background="#00FF00"
+            android:onClick="onTakePhotoClick"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="click"
+            android:background="#ffffff"
+            android:onClick="onTakePhotoClick"/>
+
+
+
+    </com.example.client.first.VIew.Stripe>
+
+
+
+
+
+</RelativeLayout>
